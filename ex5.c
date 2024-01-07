@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void) {
   char str[] = "hello";
-  printf(str);
+  int len = strlen(str);
+  printf("%s %d", str, len);
   return 0;
 }
